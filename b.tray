@@ -1,0 +1,44 @@
+int private_function() {
+	return 10;
+}
+
+export int function() {
+	return private_function();
+}
+
+export class Object {
+	// default constructor
+	public constructor() {
+
+	}
+
+	// move constructor
+	public constructor(Object object) {
+
+	}
+
+	// copy constructor
+	public constructor(Object& object) {
+
+	}
+
+	// destructor
+	destructor() {
+
+	}
+
+	static int return_one() {
+		return 1;
+	}
+
+	int return_value() {
+		return value;
+	}
+
+	int return_value_plus_static_value() {
+		return value+static_value;
+	}
+
+	public int value = 0;
+	public static static_value = 1;
+}

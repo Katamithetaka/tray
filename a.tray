@@ -1,0 +1,10 @@
+import b::{function, Object};
+
+int main(arguments: Vec<String>) {
+	function();
+	Object::static_value;
+	Object object;
+	object.return_value_plus_static_value();
+	return 0;
+}
+
